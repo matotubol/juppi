@@ -1,0 +1,22 @@
+{
+  "name": "juptrading",
+  "version": "1.0.0",
+  "description": "Jupiter Trading Service for Solana",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc && node dist/swap.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["solana", "jupiter", "trading", "defi"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.10",
+    "typescript": "^5.8.3"
+  }
+}
